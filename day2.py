@@ -1,0 +1,6 @@
+print("Welcome to the tip Calculator!")
+bill = input("What was the input bill? $")
+tip = input("How much tip would you like to give? 10,12 or 15? ")
+people = input("How many people to split bill? ")
+split = (float(bill) + float(bill)*float(tip)/100 )/int(people)
+print(f"Each person should pay: ${str(round(split,2))}")
