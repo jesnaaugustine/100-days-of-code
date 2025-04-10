@@ -11,7 +11,7 @@ def compare(guess,user):
         print('Too low')
         return 'con'
     else:
-        print('Your guess is correct. You Win!!!!')
+        print(f'Your guess is correct. The answer is {guess}')
         return 'break'
 
 
