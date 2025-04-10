@@ -40,8 +40,10 @@ if __name__=='__main__':
         if res =='break':
             corect = True
             break
+        else:
+            print('Guess again.')
     if not corect:
-        print('you lost')
+        print('you have run out of guesses. you lose')
 
     
 
